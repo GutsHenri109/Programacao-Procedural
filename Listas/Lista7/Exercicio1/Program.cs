@@ -15,7 +15,7 @@ class Program
     }
     static void Main(string[] args)
     {
-        System.Console.Write("Digite um número inteiro: ");
+        System.Console.WriteLine("Digite um número inteiro: ");
         int numero = int.Parse(Console.ReadLine());
         bool resultado = VerificarPar(numero);
 

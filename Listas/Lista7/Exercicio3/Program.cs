@@ -24,7 +24,7 @@ class Program
 
     static void Main(string[] args)
     {
-        System.Console.Write("Digite a idade do nadador: ");
+        System.Console.WriteLine("Digite a idade do nadador: ");
         int idade = int.Parse(Console.ReadLine());
         string categoriaNadador = ClassificarNadador(idade);
         System.Console.WriteLine(categoriaNadador);
